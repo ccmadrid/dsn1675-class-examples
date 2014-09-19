@@ -68,12 +68,11 @@ figcaption {
 /* ====================================== */
 /*     DON'T TOUCH THE CSS ABOVE HERE     */
 /* ====================================== */
-/*.dino-primary, .dino-secondary {
-        width: 100%;
-        float: left;
-    }*/
 
-@media only screen and (min-width: 20em){
+@media only screen and (min-width: 25em){
+    .dino-primary figcaption {
+        position: absolute;
+    }
     .dino-secondary {
         float: left;
         width: 50%;
@@ -85,13 +84,17 @@ figcaption {
         width: 33%;
         float: left;
     }
-
+    .dino-primary figcaption {
+        position: static;
+    }
+    
     .dino-secondary {
         width: 33%;
     }
 }
 @media only screen and (min-width: 50em){
-    figcaption {
+    
+    .dino-primary figcaption, figcaption {
         position: absolute;
     }
 }
