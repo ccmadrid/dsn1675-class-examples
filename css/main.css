@@ -70,6 +70,7 @@ figcaption {
 /* ====================================== */
 
 @media only screen and (min-width: 25em){
+    
     .dino-primary figcaption {
         position: absolute;
     }
@@ -77,13 +78,16 @@ figcaption {
         float: left;
         width: 50%;
     }
+    
 }
 
 @media only screen and (min-width: 36.25em){
+    
     .dino-primary {
         width: 33%;
         float: left;
     }
+    
     .dino-primary figcaption {
         position: static;
     }
@@ -91,12 +95,15 @@ figcaption {
     .dino-secondary {
         width: 33%;
     }
+    
 }
+
 @media only screen and (min-width: 50em){
     
     .dino-primary figcaption, figcaption {
         position: absolute;
     }
+    
 }
 
 
